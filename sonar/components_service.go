@@ -31,6 +31,7 @@ type Component struct {
 	Name             string          `json:"name,omitempty"`
 	Organization     string          `json:"organization,omitempty"`
 	Path             string          `json:"path,omitempty"`
+	PullRequest      string          `json:"pullRequest,omitempty"`
 	Project          string          `json:"project,omitempty"`
 	Qualifier        string          `json:"qualifier,omitempty"`
 	Revision         string          `json:"revision,omitempty"`
